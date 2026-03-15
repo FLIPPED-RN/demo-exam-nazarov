@@ -21,7 +21,7 @@ public partial class DemoExamContext : DbContext
     }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseMySql("server=localhost;user=root;password=;database=;",
+        optionsBuilder.UseMySql("server=localhost;user=root;password=AikQ1INA5wI8fCo;database=;",
             new MySqlServerVersion(new Version(8, 0, 44)));
     }
 }
